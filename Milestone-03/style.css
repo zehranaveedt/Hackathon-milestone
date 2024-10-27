@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("background\ image.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumecontainer{
+    width: 100px;
+    height: 100vh;
+    
+}
+h1 {
+    color: #0E3E47;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+div {
+    margin: 20px 0;
+}
+
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 7px solid black;
+    box-shadow: 0 0 10px #181718;
+}
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(43, 41, 41, 0.1);
+    width: 90%;
+    max-width: 700px;
+}
+
+fieldset {
+    border: 1px solid #0E3E47;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 1.5rem;
+    color: #0E3E47;
+}
+
+/* Input and textarea styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], 
+input[type="tel"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+button {
+    background-color: #0E3E47;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: block;
+    width:55%;
+}
+
+button:hover {
+    background-color: #094852;
+}
