@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume build by Zehra</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <div class="Resume-container">
+        <h1><i style="height: 100px;">Editable Resume build by Zehra</i></h1>
+    
+    <hr>
+    
+    
+    <form id="resume-form">
+        <fieldset>
+            <h2><legend>Personal Information</legend></h2>
+            <label><b>Name:</b></lable>
+            <input type="text" id="name" name="name" autocomplete="name"><br>
+
+            <label><b>Email Address:</b></label>
+            <input type="text" id="email" name="email" autocomplete="email" required><br>
+
+            <label><b>Phone no:</b></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel"><br>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Objective</legend>
+            <h2>Objective</h2>
+            <textarea id="objective" name="Objective" rows="4" required></textarea>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Education</legend>
+            <h2>Education</h2>
+            <textarea id="education" name="Education" rows="4" required></textarea>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <h2>Experience</h2>
+            <textarea id="experience" name="Experience" rows="4" required></textarea>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <h2>Skills</h2>
+            <textarea id="skills" name="Skill" rows="4" required></textarea>
+        </fieldset><br>
+    </div>
+        <button type="submit">Generate Resume Below</button>
+    </form>
+
+    <br>
+    <!-- Editable & Dynamic resume-->
+    <div id="resume-display" contenteditable="true">
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
